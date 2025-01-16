@@ -52,7 +52,7 @@ function Menu() {
       <div className='pizzas'>
         {
           pizzaData.map((pizza, index) =>
-            <Pizza key={index} props={pizza} />
+            <Pizza key={index} pizzaObject={pizza} />
           )
         }
       </div>
